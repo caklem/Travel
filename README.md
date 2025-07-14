@@ -36,7 +36,27 @@ Sebuah landing page yang menarik untuk agen travel Indonesia "WanderNusa" yang d
 └── package.json
 ```
 
-## 🛠️ Commands
+## � Live Demo
+
+Website ini dapat diakses di: [https://YOUR_USERNAME.github.io/wandernusa-travel](https://YOUR_USERNAME.github.io/wandernusa-travel)
+
+## 📦 Deployment
+
+Website ini menggunakan GitHub Pages untuk hosting dengan GitHub Actions untuk automatic deployment.
+
+### Deploy ke GitHub Pages:
+
+1. Fork atau clone repository ini
+2. Update `astro.config.mjs`:
+   ```javascript
+   site: 'https://YOUR_USERNAME.github.io',
+   base: '/wandernusa-travel',
+   ```
+3. Push ke repository GitHub Anda
+4. Aktifkan GitHub Pages di Settings → Pages → Source: GitHub Actions
+5. Website akan otomatis ter-deploy setiap kali ada push ke branch main
+
+## �🛠️ Commands
 
 Semua command dijalankan dari root directory project:
 
