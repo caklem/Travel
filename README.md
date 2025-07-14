@@ -1,4 +1,4 @@
-# WanderNusa - Travel Landing Page
+# TravelBarokah - Travel Landing Page
 
 Sebuah landing page yang menarik untuk agen travel Indonesia "WanderNusa" yang dibangun menggunakan Astro.js dan Tailwind CSS.
 
