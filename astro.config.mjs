@@ -6,8 +6,9 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site: "https://travel.github.io",
-  base: "/wandernusa-travel",
+  base: "/",
   output: "static",
+  trailingSlash: "ignore",
   build: {
     assets: "assets",
   },
