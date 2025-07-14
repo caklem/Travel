@@ -5,8 +5,8 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: "https://travel.github.io",
-  base: "/travelbarokah",
+  site: "https://caklem.github.io",
+  base: "/Travel",
   output: "static",
   trailingSlash: "ignore",
   build: {

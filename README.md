@@ -2,7 +2,7 @@
 
 Se## 🚀 Live Demo
 
-Website ini dapat diakses di: [https://travel.github.io/travelbarokah](https://travel.github.io/travelbarokah)
+Website ini dapat diakses di: [https://caklem.github.io/Travel](https://caklem.github.io/Travel)
 
 ## 📦 Deployment
 
@@ -13,8 +13,8 @@ Website ini menggunakan GitHub Pages untuk hosting dengan GitHub Actions untuk a
 1. Fork atau clone repository ini
 2. Update `astro.config.mjs`:
    ```javascript
-   site: 'https://YOUR_USERNAME.github.io',
-   base: '/travelbarokah',
+   site: 'https://caklem.github.io',
+   base: '/Travel',
    ```e yang menarik untuk agen travel Indonesia "WanderNusa" yang dibangun menggunakan Astro.js dan Tailwind CSS.
 
 ## 🌟 Fitur Utama
