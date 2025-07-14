@@ -1,6 +1,21 @@
 # WanderNusa - Travel Landing Page
 
-Sebuah landing page yang menarik untuk agen travel Indonesia "WanderNusa" yang dibangun menggunakan Astro.js dan Tailwind CSS.
+Se## 🚀 Live Demo
+
+Website ini dapat diakses di: [https://travel.github.io/travelbarokah](https://travel.github.io/travelbarokah)
+
+## 📦 Deployment
+
+Website ini menggunakan GitHub Pages untuk hosting dengan GitHub Actions untuk automatic deployment.
+
+### Deploy ke GitHub Pages:
+
+1. Fork atau clone repository ini
+2. Update `astro.config.mjs`:
+   ```javascript
+   site: 'https://YOUR_USERNAME.github.io',
+   base: '/travelbarokah',
+   ```e yang menarik untuk agen travel Indonesia "WanderNusa" yang dibangun menggunakan Astro.js dan Tailwind CSS.
 
 ## 🌟 Fitur Utama
 
