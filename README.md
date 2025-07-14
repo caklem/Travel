@@ -1,6 +1,8 @@
-# WanderNusa - Travel Landing Page
+# Travel Barokah - Travel Landing Page
 
-Se## 🚀 Live Demo
+Sebuah landing page yang menarik untuk agen travel Indonesia "Travel Barokah" yang dibangun menggunakan Astro.js dan Tailwind CSS.
+
+## 🚀 Live Demo
 
 Website ini dapat diakses di: [https://caklem.github.io/Travel](https://caklem.github.io/Travel)
 
@@ -15,7 +17,28 @@ Website ini menggunakan GitHub Pages untuk hosting dengan GitHub Actions untuk a
    ```javascript
    site: 'https://caklem.github.io',
    base: '/Travel',
+   ```
+3. Push ke repository GitHub Anda
+4. Aktifkan GitHub Pages di Settings → Pages → Source: GitHub Actions
+5. Website akan otomatis ter-deploy setiap kali ada push ke branch mainvel Landing Page
+
+Se## 🚀 Live Demo
+
+Website ini dapat diakses di: [https://travel.github.io/travelbarokah](https://travel.github.io/travelbarokah)
+
+## 📦 Deployment
+
+Website ini menggunakan GitHub Pages untuk hosting dengan GitHub Actions untuk automatic deployment.
+
+### Deploy ke GitHub Pages:
+
+1. Fork atau clone repository ini
+2. Update `astro.config.mjs`:
+   ````javascript
+   site: 'https://YOUR_USERNAME.github.io',
+   base: '/travelbarokah',
    ```e yang menarik untuk agen travel Indonesia "WanderNusa" yang dibangun menggunakan Astro.js dan Tailwind CSS.
+   ````
 
 ## 🌟 Fitur Utama
 

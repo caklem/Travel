@@ -8,7 +8,6 @@ export default defineConfig({
   site: "https://caklem.github.io",
   base: "/Travel",
   output: "static",
-  trailingSlash: "ignore",
   build: {
     assets: "assets",
   },
