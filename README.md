@@ -1,47 +1,168 @@
-# Astro Starter Kit: Minimal
+# WanderNusa - Travel Landing Page
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Sebuah landing page yang menarik untuk agen travel Indonesia "WanderNusa" yang dibangun menggunakan Astro.js dan Tailwind CSS.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 🌟 Fitur Utama
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Design Responsif**: Tampil sempurna di semua perangkat
+- **Hero Section**: Tampilan utama yang memukau dengan gambar Indonesia
+- **Destinasi Populer**: Showcase destinasi wisata terbaik Indonesia
+- **Layanan Lengkap**: Informasi lengkap tentang layanan yang ditawarkan
+- **Testimoni**: Reviews dari pelanggan yang puas
+- **Form Kontak**: Formulir kontak yang mudah digunakan
+- **Smooth Scrolling**: Navigasi yang halus antar section
 
-## 🚀 Project Structure
+## 🚀 Tech Stack
 
-Inside of your Astro project, you'll see the following folders and files:
+- **Framework**: [Astro.js](https://astro.build)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **Icons**: Heroicons (SVG)
+- **Images**: Unsplash (untuk demo)
+- **Language**: JavaScript/TypeScript
+
+## 📁 Struktur Project
 
 ```text
 /
 ├── public/
+│   └── favicon.svg
 ├── src/
 │   └── pages/
-│       └── index.astro
+│       └── index.astro        # Landing page utama
+├── .github/
+│   └── copilot-instructions.md # Instruksi untuk GitHub Copilot
+├── astro.config.mjs           # Konfigurasi Astro
+├── tailwind.config.mjs        # Konfigurasi Tailwind
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🛠️ Commands
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Semua command dijalankan dari root directory project:
 
-Any static assets, like images, can be placed in the `public/` directory.
+| Command             | Action                                                   |
+| :------------------ | :------------------------------------------------------- |
+| `npm install`       | Install dependencies                                     |
+| `npm run dev`       | Mulai development server di `localhost:4321`             |
+| `npm run build`     | Build production site ke `./dist/`                       |
+| `npm run preview`   | Preview build secara lokal sebelum deploy                |
+| `npm run astro ...` | Jalankan CLI commands seperti `astro add`, `astro check` |
 
-## 🧞 Commands
+## 🎨 Sections
 
-All commands are run from the root of the project, from a terminal:
+### 1. Navigation
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- Fixed header dengan backdrop blur
+- Smooth scroll navigation
+- Mobile responsive menu
 
-## 👀 Want to learn more?
+### 2. Hero Section
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Full-screen hero dengan background image
+- Call-to-action buttons
+- Gradient overlay untuk readability
+
+### 3. Stats Section
+
+- Counter animasi untuk statistik perusahaan
+- Grid responsive layout
+
+### 4. Destinasi Populer
+
+- Card layout untuk destinasi wisata
+- Hover effects dan transitions
+- Price dan duration info
+
+### 5. Layanan
+
+- Icon-based service highlights
+- 3-column grid layout
+- Hover animations
+
+### 6. Testimonials
+
+- Customer reviews dengan star ratings
+- 3-column responsive grid
+
+### 7. Contact Section
+
+- Form kontak yang lengkap
+- Contact information dengan icons
+- Gradient background
+
+### 8. Footer
+
+- Company info dan social links
+- Link grid layout
+- Copyright notice
+
+## 🎯 Getting Started
+
+1. **Clone dan Install**
+
+   ```bash
+   git clone <repository-url>
+   cd project
+   npm install
+   ```
+
+2. **Development**
+
+   ```bash
+   npm run dev
+   ```
+
+   Buka [http://localhost:4321](http://localhost:4321) di browser Anda.
+
+3. **Build untuk Production**
+   ```bash
+   npm run build
+   npm run preview
+   ```
+
+## 🎨 Customization
+
+### Colors
+
+Brand colors bisa diubah di Tailwind classes:
+
+- Primary: `blue-600` (#2563eb)
+- Secondary: `yellow-400`
+- Accent: `purple-700`
+
+### Content
+
+Untuk mengubah konten:
+
+1. Edit data destinasi di `src/pages/index.astro`
+2. Update contact information di section contact
+3. Ganti images dari Unsplash dengan assets sendiri
+
+### Styling
+
+Semua styling menggunakan Tailwind CSS utility classes untuk:
+
+- Responsive design
+- Hover effects
+- Transitions dan animations
+- Layout dan spacing
+
+## 📝 TODO
+
+- [ ] Integrasi dengan backend untuk form submission
+- [ ] Add image optimization
+- [ ] Implement loading states
+- [ ] Add more destinations
+- [ ] SEO optimization
+- [ ] Add blog section
+- [ ] Multi-language support
+
+## 📚 Learn More
+
+- [Astro Documentation](https://docs.astro.build)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Indonesia Tourism](https://www.indonesia.travel)
+
+## 📄 License
+
+Project ini dibuat untuk keperluan demo dan pembelajaran.
